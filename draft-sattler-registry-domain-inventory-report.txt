@@ -82,6 +82,10 @@ Table of Contents
    each registry's intranet in a different manner according to each
    registry's own document management set up.
    
+   A domain inventory comparison between the domains that are on an
+   accreditation and the domains that a registrar has in his system
+   is therefore helpful.
+   
    This document describes the content of a domain inventory report
    based on the [I-D.mcpherson-sattler-registry-report-structure] and
    delivered by the [I-D.mcpherson-sattler-registry-reporting-repo].
