@@ -1,7 +1,7 @@
 Internet Engineering Task Force                       T. Sattler, Editor
 Internet-Draft                                              
 Intended status: Best Current Practice                         
-Expires: May 29, 2018                                  November 30, 2018
+Expires: May 29, 2019                                  November 30, 2018
 
                      Registry Domain Inventory Report
             draft-sattler-registry-domain-inventory-report-00
