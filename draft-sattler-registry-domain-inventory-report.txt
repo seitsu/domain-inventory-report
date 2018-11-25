@@ -138,7 +138,7 @@ Internet-Draft       Registry Domain Inventory Report      November 2018
    This is an example of a domain inventory report for a single
    top-level domain .example.
    
-   Filename: example_domain-inventory_2018-11-01.csv
+   Filename: example_domain-inventory_2018-11-01.csv.gz
    
    TLD,DOMAIN,REGISTRARID
    example,test1.example,1
@@ -151,7 +151,7 @@ Internet-Draft       Registry Domain Inventory Report      November 2018
    This is an example of a domain inventory report for multiple
    top-level domains from example registry.
    
-   Filename: example-registry_domain-inventory_2018-08.csv
+   Filename: example-registry_domain-inventory_2018-11.csv.gz
 
    TLD,DOMAIN,REGISTRARID
    example1,test1.example1,1
