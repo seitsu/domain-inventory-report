@@ -116,20 +116,22 @@ Internet-Draft       Registry Domain Inventory Report      November 2018
    The first row MUST be the column headings in the following order:
    
    TLD               It MUST contain the top-level domain name and
-                     formatted according section 2.1 of this document.
+                     formatted according to section 2.1 of this
+                     document.
    
    DOMAIN            It MUST contain the domain name formatted according
-                     section 2.1 of this document.
+                     to section 2.1 of this document.
 
    REGISTRARID       It MUST contain the registrar ID of the succesful
-                     transaction according section 4 of this document.
+                     transaction according to section 4 of this
+                     document.
                      
 4.  Registrar ID
 
-   A unique registrar id MUST be listed, with each transaction. Those
-   IDs MUST be according the IANA registrars ids (https://www.iana.org/
+   A unique registrar ID MUST be listed, with each transaction. Those
+   IDs MUST be according the IANA registrar IDs (https://www.iana.org/
    assignments/registrar-ids/registrar-ids.xhtml) where applicable,
-   otherwise another unique registrar id MUST be used.
+   otherwise another unique registrar ID MUST be used.
 
 5.  Examples
 
