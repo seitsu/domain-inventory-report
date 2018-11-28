@@ -1,7 +1,7 @@
 Internet Engineering Task Force                       T. Sattler, Editor
 Internet-Draft                                              
 Intended status: Best Current Practice                         
-Expires: May 29, 2019                                  November 30, 2018
+Expires: May 27, 2019                                  November 28, 2018
 
                      Registry Domain Inventory Report
             draft-sattler-registry-domain-inventory-report-00
@@ -27,7 +27,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on May 29, 2019.
+   This Internet-Draft will expire on May 27, 2019.
 
 Copyright Notice
 
@@ -44,7 +44,7 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-Sattler                  Expires May 29, 2019                   [Page 1]
+Sattler                  Expires May 27, 2019                   [Page 1]
 
 Internet-Draft       Registry Domain Inventory Report      November 2018
 
@@ -102,7 +102,7 @@ Table of Contents
    MUST be as defined in
    [I-D.mcpherson-sattler-registry-report-structure].
    
-Sattler                  Expires May 29, 2019                   [Page 2]
+Sattler                  Expires May 27, 2019                   [Page 2]
 
 Internet-Draft       Registry Domain Inventory Report      November 2018
    
@@ -161,7 +161,7 @@ Internet-Draft       Registry Domain Inventory Report      November 2018
    example3,test2.example3,1
    xn--zckzah,xn--r8jz45g.xn--zckzah,1
    
-Sattler                  Expires May 29, 2019                   [Page 3]
+Sattler                  Expires May 27, 2019                   [Page 3]
 
 Internet-Draft       Registry Domain Inventory Report      November 2018
 
@@ -215,7 +215,7 @@ Internet-Draft       Registry Domain Inventory Report      November 2018
               Requirement Levels", BCP 14, RFC 2119, March 1997,
               <https://www.rfc-editor.org/info/rfc2119>.
               
-Sattler                  Expires May 29, 2019                   [Page 4]
+Sattler                  Expires May 27, 2019                   [Page 4]
 
 Internet-Draft       Registry Domain Inventory Report      November 2018
               
@@ -248,5 +248,5 @@ Author's Address
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-Sattler                  Expires May 29, 2019                   [Page 5]
+Sattler                  Expires May 27, 2019                   [Page 5]
 
