@@ -1,10 +1,10 @@
 Internet Engineering Task Force                       T. Sattler, Editor
 Internet-Draft                                              
 Intended status: Best Current Practice                         
-Expires: May 27, 2019                                  November 28, 2018
+Expires: June 30, 2019                                 December 31, 2018
 
                      Registry Domain Inventory Report
-            draft-sattler-registry-domain-inventory-report-00
+            draft-sattler-registry-domain-inventory-report-01
 
 Abstract
 
@@ -27,7 +27,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on May 27, 2019.
+   This Internet-Draft will expire on June 30, 2019.
 
 Copyright Notice
 
@@ -44,9 +44,9 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-Sattler                  Expires May 27, 2019                   [Page 1]
+Sattler                  Expires June 30, 2019                  [Page 1]
 
-Internet-Draft       Registry Domain Inventory Report      November 2018
+Internet-Draft       Registry Domain Inventory Report      December 2018
 
 Table of Contents
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
@@ -65,6 +65,7 @@ Table of Contents
      9.1.  Normative References  . . . . . . . . . . . . . . . . . .   4
      9.2.  Informative References  . . . . . . . . . . . . . . . . .   5
    Appendix A.  Change History . . . . . . . . . . . . . . . . . . .   5
+     A.1.  Change from 00 to 01  . . . . . . . . . . . . . . . . . .   5
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   5
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
 
@@ -102,9 +103,9 @@ Table of Contents
    MUST be as defined in
    [I-D.mcpherson-sattler-registry-report-structure].
    
-Sattler                  Expires May 27, 2019                   [Page 2]
+Sattler                  Expires June 30, 2019                  [Page 2]
 
-Internet-Draft       Registry Domain Inventory Report      November 2018
+Internet-Draft       Registry Domain Inventory Report      December 2018
    
 2.2.  Character Encoding
 
@@ -161,9 +162,9 @@ Internet-Draft       Registry Domain Inventory Report      November 2018
    example3,test2.example3,1
    xn--zckzah,xn--r8jz45g.xn--zckzah,1
    
-Sattler                  Expires May 27, 2019                   [Page 3]
+Sattler                  Expires June 30, 2019                  [Page 3]
 
-Internet-Draft       Registry Domain Inventory Report      November 2018
+Internet-Draft       Registry Domain Inventory Report      December 2018
 
 6.  IANA Considerations
 
@@ -215,9 +216,9 @@ Internet-Draft       Registry Domain Inventory Report      November 2018
               Requirement Levels", BCP 14, RFC 2119, March 1997,
               <https://www.rfc-editor.org/info/rfc2119>.
               
-Sattler                  Expires May 27, 2019                   [Page 4]
+Sattler                  Expires June 30, 2019                  [Page 4]
 
-Internet-Draft       Registry Domain Inventory Report      November 2018
+Internet-Draft       Registry Domain Inventory Report      December 2018
               
 9.2.  Informative References
 
@@ -234,9 +235,13 @@ Internet-Draft       Registry Domain Inventory Report      November 2018
 
 Appendix A.  Change History
 
+A.1.  Change from 00 to 01
+
+   Minor fixes
+
 Appendix B.  Acknowledgements
 
-   The authors wish to thank the following persons for their feedback
+   The author wishes to thank the following persons for their feedback
    and suggestions (sorted alphabetically by company):
    
    o Neal McPherson, 1&1 IONOS
@@ -248,5 +253,5 @@ Author's Address
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-Sattler                  Expires May 27, 2019                   [Page 5]
+Sattler                  Expires June 30, 2019                  [Page 5]
 
