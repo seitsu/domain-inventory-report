@@ -1,4 +1,4 @@
-## Registry Domain Inventory Report
+## Domain Inventory Report
 
 ### Goal
 The goal is to draft a Domain Inventroy Report based on the [Registry Report Structure] and will be delivered through the [Registry Reporting Repository]. It shall be submitted to the IETF as best practice and hopefully result in a [RFC].
@@ -19,4 +19,4 @@ This is free and unencumbered software released into the public domain. For more
 [LICENSE]: /LICENSE
 [Registry Reporting Repository]: https://github.com/seitsu/registry-reporting-repository
 [Registry Report Structure]: https://github.com/seitsu/registry-report-structure
-[draft]: /draft-sattler-registry-domain-inventory-report.txt
+[draft]: /draft-sattler-domain-inventory-report.txt
