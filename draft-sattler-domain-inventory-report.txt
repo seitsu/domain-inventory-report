@@ -3,8 +3,8 @@ Internet-Draft
 Intended status: Best Current Practice                         
 Expires: June 30, 2019                                 December 31, 2018
 
-                     Registry Domain Inventory Report
-            draft-sattler-registry-domain-inventory-report-01
+                         Domain Inventory Report
+                 draft-sattler-domain-inventory-report-00
 
 Abstract
 
@@ -46,7 +46,7 @@ Copyright Notice
 
 Sattler                  Expires June 30, 2019                  [Page 1]
 
-Internet-Draft       Registry Domain Inventory Report      December 2018
+Internet-Draft          Domain Inventory Report            December 2018
 
 Table of Contents
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
@@ -54,7 +54,7 @@ Table of Contents
      2.1.  Internationalized Domain Names  . . . . . . . . . . . . .   2
      2.2.  Character Encoding  . . . . . . . . . . . . . . . . . . .   3
    3.  Report Headings . . . . . . . . . . . . . . . . . . . . . . .   3
-   4.  Registrar ID  . . . . . . . . . . . . . . . . . . . . . . . .   3
+   4.  Unique ID . . . . . . . . . . . . . . . . . . . . . . . . . .   3
    5.  Examples  . . . . . . . . . . . . . . . . . . . . . . . . . .   3
      5.1.  Single TLD File Example . . . . . . . . . . . . . . . . .   3
      5.2.  Multiple TLDs File Example  . . . . . . . . . . . . . . .   3
@@ -65,7 +65,7 @@ Table of Contents
      9.1.  Normative References  . . . . . . . . . . . . . . . . . .   4
      9.2.  Informative References  . . . . . . . . . . . . . . . . .   5
    Appendix A.  Change History . . . . . . . . . . . . . . . . . . .   5
-     A.1.  Change from 00 to 01  . . . . . . . . . . . . . . . . . .   5
+     A.1.  Change from 00 to DOMAININV 00  . . . . . . . . . . . . .   5
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   5
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
 
@@ -84,8 +84,8 @@ Table of Contents
    registry's own document management set up.
    
    A domain inventory comparison between the domains that are on an
-   accreditation and the domains that a registrar has in his system
-   is therefore helpful.
+   accreditation and the domains that a registrar has in its system
+   is therefore useful.
    
    This document describes the content of a domain inventory report
    based on the [I-D.mcpherson-sattler-registry-report-structure] and
@@ -105,7 +105,7 @@ Table of Contents
    
 Sattler                  Expires June 30, 2019                  [Page 2]
 
-Internet-Draft       Registry Domain Inventory Report      December 2018
+Internet-Draft          Domain Inventory Report            December 2018
    
 2.2.  Character Encoding
 
@@ -123,16 +123,16 @@ Internet-Draft       Registry Domain Inventory Report      December 2018
    DOMAIN            It MUST contain the domain name formatted according
                      to section 2.1 of this document.
 
-   REGISTRARID       It MUST contain the registrar ID of the succesful
+   ID                It MUST contain an unique ID of the succesful
                      transaction according to section 4 of this
                      document.
                      
-4.  Registrar ID
+4.  Unique ID
 
-   A unique registrar ID MUST be listed, with each transaction. Those
-   IDs MUST be according the IANA registrar IDs (https://www.iana.org/
-   assignments/registrar-ids/registrar-ids.xhtml) where applicable,
-   otherwise another unique registrar ID MUST be used.
+   A unique ID MUST be listed, with each transaction. Those IDs MUST be
+   according the IANA registrar IDs (https://www.iana.org/assignments/
+   registrar-ids/registrar-ids.xhtml) where applicable, otherwise
+   another unique registrar or reseller ID MUST be used.
 
 5.  Examples
 
@@ -143,7 +143,7 @@ Internet-Draft       Registry Domain Inventory Report      December 2018
    
    Filename: example_domain-inventory_2018-11-01.csv.gz
    
-   TLD,DOMAIN,REGISTRARID
+   TLD,DOMAIN,ID
    example,test1.example,1
    example,test2.example,1
    example,test3.example,1
@@ -156,7 +156,7 @@ Internet-Draft       Registry Domain Inventory Report      December 2018
    
    Filename: example-registry_domain-inventory_2018-11.csv.gz
 
-   TLD,DOMAIN,REGISTRARID
+   TLD,DOMAIN,ID
    example1,test1.example1,1
    example2,test1.example2,1
    example3,test2.example3,1
@@ -164,7 +164,7 @@ Internet-Draft       Registry Domain Inventory Report      December 2018
    
 Sattler                  Expires June 30, 2019                  [Page 3]
 
-Internet-Draft       Registry Domain Inventory Report      December 2018
+Internet-Draft          Domain Inventory Report            December 2018
 
 6.  IANA Considerations
 
@@ -218,7 +218,7 @@ Internet-Draft       Registry Domain Inventory Report      December 2018
               
 Sattler                  Expires June 30, 2019                  [Page 4]
 
-Internet-Draft       Registry Domain Inventory Report      December 2018
+Internet-Draft          Domain Inventory Report            December 2018
               
 9.2.  Informative References
 
@@ -235,9 +235,10 @@ Internet-Draft       Registry Domain Inventory Report      December 2018
 
 Appendix A.  Change History
 
-A.1.  Change from 00 to 01
+A.1.  Change from 00 to DOMAININV 00
 
-   Minor fixes
+   Changed draft name. Registrar ID renamed to Unique ID to make the
+   report available to resellers as well.
 
 Appendix B.  Acknowledgements
 
