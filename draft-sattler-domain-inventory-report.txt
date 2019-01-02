@@ -1,10 +1,10 @@
 Internet Engineering Task Force                       T. Sattler, Editor
 Internet-Draft                                              
 Intended status: Best Current Practice                         
-Expires: June 27, 2019                                 December 28, 2018
+Expires: July 30, 2019                                  January 31, 2019
 
                          Domain Inventory Report
-                 draft-sattler-domain-inventory-report-00
+                 draft-sattler-domain-inventory-report-01
 
 Abstract
 
@@ -27,11 +27,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on June 27, 2019.
+   This Internet-Draft will expire on July 30, 2019.
 
 Copyright Notice
 
-   Copyright (c) 2018 IETF Trust and the persons identified as the
+   Copyright (c) 2019 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -44,28 +44,30 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-Sattler                  Expires June 27, 2019                  [Page 1]
+Sattler                  Expires July 30, 2019                  [Page 1]
 
-Internet-Draft          Domain Inventory Report            December 2018
+Internet-Draft          Domain Inventory Report             January 2019
 
 Table of Contents
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
    2.  Terminology and Definitions . . . . . . . . . . . . . . . . .   2
-     2.1.  Internationalized Domain Names  . . . . . . . . . . . . .   2
+     2.1.  Internationalized Domain Names  . . . . . . . . . . . . .   3
      2.2.  Character Encoding  . . . . . . . . . . . . . . . . . . .   3
+     2.3.  Dates and Times . . . . . . . . . . . . . . . . . . . . .   3
    3.  Report Headings . . . . . . . . . . . . . . . . . . . . . . .   3
    4.  Unique ID . . . . . . . . . . . . . . . . . . . . . . . . . .   3
    5.  Examples  . . . . . . . . . . . . . . . . . . . . . . . . . .   3
      5.1.  Single TLD File Example . . . . . . . . . . . . . . . . .   3
-     5.2.  Multiple TLDs File Example  . . . . . . . . . . . . . . .   3
+     5.2.  Multiple TLDs File Example  . . . . . . . . . . . . . . .   4
    6.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
    7.  Security Considerations . . . . . . . . . . . . . . . . . . .   4
    8.  Implementation Status . . . . . . . . . . . . . . . . . . . .   4
-   9.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   4
-     9.1.  Normative References  . . . . . . . . . . . . . . . . . .   4
+   9.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   5
+     9.1.  Normative References  . . . . . . . . . . . . . . . . . .   5
      9.2.  Informative References  . . . . . . . . . . . . . . . . .   5
    Appendix A.  Change History . . . . . . . . . . . . . . . . . . .   5
      A.1.  Change from 00 to DOMAININV 00  . . . . . . . . . . . . .   5
+     A.2.  Change from DOMAININV 00 to DOMAININV 01  . . . . . . . .   5
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   5
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
 
@@ -83,8 +85,8 @@ Table of Contents
    registry's own document management set up.
    
    A domain inventory comparison between the domains that are on an
-   accreditation and the domains that a registrar has in its system
-   is therefore useful.
+   accreditation / account and the domains that a registrar / reseller
+   has in its system is therefore useful.
    
    This document describes the content of a domain inventory report
    based on the [I-D.mcpherson-sattler-registry-report-structure] and
@@ -97,16 +99,21 @@ Table of Contents
    document are to be interpreted as described in [RFC2119] when
    specified in their uppercase forms.
    
+Sattler                  Expires July 30, 2019                  [Page 2]
+
+Internet-Draft          Domain Inventory Report             January 2019
+   
 2.1.  Internationalized Domain Names
 
    MUST be as defined in
    [I-D.mcpherson-sattler-registry-report-structure].
    
-Sattler                  Expires June 27, 2019                  [Page 2]
-
-Internet-Draft          Domain Inventory Report            December 2018
-   
 2.2.  Character Encoding
+
+   MUST be as defined in
+   [I-D.mcpherson-sattler-registry-report-structure].
+   
+2.3.  Dates and Times
 
    MUST be as defined in
    [I-D.mcpherson-sattler-registry-report-structure].
@@ -121,17 +128,23 @@ Internet-Draft          Domain Inventory Report            December 2018
    
    DOMAIN            It MUST contain the domain name formatted according
                      to section 2.1 of this document.
+                     
+   UPDATED           It MUST contain the date and time of the most
+                     recent domain-object modification. If the domain
+                     object has never been modified, then the date and
+                     time of domain-object creation has to be used.
+                     Formatting in both cases according to section 2.3
+                     of this document.
 
-   ID                It MUST contain an unique ID of the succesful
-                     transaction according to section 4 of this
-                     document.
+   ID                It MUST contain an unique ID according to section 4
+                     of this document.
                      
 4.  Unique ID
 
-   A unique ID MUST be listed, with each transaction. Those IDs MUST be
-   according the IANA registrar IDs (https://www.iana.org/assignments/
-   registrar-ids/registrar-ids.xhtml) where applicable, otherwise
-   another unique registrar or reseller ID MUST be used.
+   A unique ID MUST either be according the IANA registrar IDs
+   (https://www.iana.org/assignments/registrar-ids/registrar-ids.xhtml)
+   where applicable or another unique registrar or reseller ID MUST be
+   used.
 
 5.  Examples
 
@@ -142,11 +155,15 @@ Internet-Draft          Domain Inventory Report            December 2018
    
    Filename: example_domain-inventory_2018-11-01.csv.gz
    
-   TLD,DOMAIN,ID
-   example,test1.example,1
-   example,test2.example,1
-   example,test3.example,1
-   example,xn--4gqvdy3r.example,1
+Sattler                  Expires July 30, 2019                  [Page 3]
+
+Internet-Draft          Domain Inventory Report             January 2019
+   
+   TLD,DOMAIN,UPDATED,ID
+   example,test1.example,2018-12-30T07:00:00Z,1
+   example,test2.example,2018-12-30T09:00:15Z,1
+   example,test3.example,2018-12-31T09:03:22Z,1
+   example,xn--4gqvdy3r.example,2018-12-31T10:18:56Z,1
 
 5.2.  Multiple TLDs File Example
 
@@ -155,15 +172,11 @@ Internet-Draft          Domain Inventory Report            December 2018
    
    Filename: example-registry_domain-inventory_2018-11.csv.gz
 
-   TLD,DOMAIN,ID
-   example1,test1.example1,1
-   example2,test1.example2,1
-   example3,test2.example3,1
-   xn--zckzah,xn--r8jz45g.xn--zckzah,1
-   
-Sattler                  Expires June 27, 2019                  [Page 3]
-
-Internet-Draft          Domain Inventory Report            December 2018
+   TLD,DOMAIN,UPDATED,ID
+   example1,test1.example1,2018-12-30T07:00:00Z,1
+   example2,test1.example2,2018-12-30T09:00:15Z,1
+   example3,test2.example3,2018-12-31T09:03:22Z,1
+   xn--zckzah,xn--r8jz45g.xn--zckzah,2018-12-31T10:18:56Z,1
 
 6.  IANA Considerations
 
@@ -171,8 +184,8 @@ Internet-Draft          Domain Inventory Report            December 2018
 
 7.  Security Considerations
 
-   The registry domain inventory report described in this document do
-   not provide any security services.
+   The Domain Inventory Report described in this document does not
+   provide any security services.
 
 8.  Implementation Status
 
@@ -200,6 +213,10 @@ Internet-Draft          Domain Inventory Report            December 2018
    they see fit".
 
    Add implementation details once available.
+   
+Sattler                  Expires July 30, 2019                  [Page 4]
+
+Internet-Draft          Domain Inventory Report             January 2019
 
 9.  References
 
@@ -214,10 +231,6 @@ Internet-Draft          Domain Inventory Report            December 2018
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119, March 1997,
               <https://www.rfc-editor.org/info/rfc2119>.
-              
-Sattler                  Expires June 27, 2019                  [Page 4]
-
-Internet-Draft          Domain Inventory Report            December 2018
               
 9.2.  Informative References
 
@@ -238,6 +251,10 @@ A.1.  Change from 00 to DOMAININV 00
 
    Changed draft name. Registrar ID renamed to Unique ID to make the
    report available to resellers as well.
+   
+A.2.  Change from DOMAININV 00 to DOMAININV 01
+
+   Editorial changes. Added column UPDATED. Clarified Unique ID.
 
 Appendix B.  Acknowledgements
 
@@ -253,5 +270,5 @@ Author's Address
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-Sattler                  Expires June 27, 2019                  [Page 5]
+Sattler                  Expires July 30, 2019                  [Page 5]
 
