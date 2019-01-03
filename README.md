@@ -16,6 +16,6 @@ This is free and unencumbered software released into the public domain. For more
 [TechOps]: http://icannregistrars.org/techops-sub-committee/
 [CPH TechOps]: https://bestpractice.domains
 [LICENSE]: /LICENSE
-[Reporting Repository]: https://github.com/seitsu/registry-reporting-repository
-[Report Structure]: https://github.com/seitsu/registry-report-structure
+[Reporting Repository]: https://github.com/seitsu/reporting-repository
+[Report Structure]: https://github.com/seitsu/report-structure
 [draft]: /draft-sattler-domain-inventory-report.txt
