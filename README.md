@@ -7,7 +7,7 @@ The goal is to draft a Domain Inventroy Report based on the [Report Structure] a
 The idea to create the Repository, the Structure and numerous Reports was first raised in the ICANN Registrar Stakeholder Group ([RrSG]) Technical and Operational ([TechOps]) Subcommittee, and further discussed and eventually approved in the [CPH TechOps] Group.
 
 ### Validation
-The draft is written in IETF RFC style. Therefore, you may validate the [draft] with https://tools.ietf.org/tools/idnits/
+The draft is written in IETF RFC style. Therefore, you may validate this [draft] with https://tools.ietf.org/tools/idnits/
 
 ### License
 This is free and unencumbered software released into the public domain. For more info, please read the [LICENSE] file distributed.
