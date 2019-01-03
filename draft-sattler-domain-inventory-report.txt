@@ -8,9 +8,9 @@ Expires: July 30, 2019                                  January 31, 2019
 
 Abstract
 
-   This document describes the content of a domain inventory report
-   based on the registry report structure and delivered by the registry
-   reporting repository.
+   This document describes the content of a Domain Inventory Report
+   based on the Report structure and delivered by the Reporting
+   Repository.
 
 Status of This Memo
 
@@ -77,7 +77,7 @@ Table of Contents
    reports and documents that their registrars require on a daily,
    weekly and monthly basis. These most commonly include transaction
    reports, as well as lists containing currently unavailable domains
-   and current premium domains. These reports are critical for
+   and current premium domain fees. These reports are critical for
    registrars' businesses and play an important role in accounting and
    operations processes as well as in sales and marketing activities.
    In the current set-up registrars must download these reports from
@@ -88,7 +88,7 @@ Table of Contents
    accreditation / account and the domains that a registrar / reseller
    has in its system is therefore useful.
    
-   This document describes the content of a domain inventory report
+   This document describes the content of a Domain Inventory Report
    based on the [I-D.mcpherson-sattler-registry-report-structure] and
    delivered by the [I-D.mcpherson-sattler-registry-reporting-repo].
 
