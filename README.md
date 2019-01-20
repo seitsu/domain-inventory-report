@@ -1,15 +1,16 @@
-## Domain Inventory Report
+Domain Inventory Report
+=================
 
-### Goal
+## Goal
 The goal is to draft a Domain Inventroy Report based on the [Report Structure] and shall be delivered through the [Reporting Repository].
 
-### Status
+## Status
 The idea to create the Repository, the Structure and numerous Reports was first raised in the ICANN Registrar Stakeholder Group ([RrSG]) Technical and Operational ([TechOps]) Subcommittee, and further discussed and eventually approved in the [CPH TechOps] Group.
 
-### Validation
+## Validation
 The draft is written in IETF RFC style. Therefore, you may validate this [draft] with https://tools.ietf.org/tools/idnits/
 
-### License
+## License
 This is free and unencumbered software released into the public domain. For more info, please read the [LICENSE] file distributed.
 
 [RrSG]: http://icannregistrars.org
