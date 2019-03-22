@@ -1,10 +1,10 @@
 Internet Engineering Task Force                       T. Sattler, Editor
 Internet-Draft                                              
 Intended status: Best Current Practice                         
-Expires: July 28, 2019                                  January 29, 2019
+Expires: September 23, 2019                               March 24, 2019
 
                          Domain Inventory Report
-                 draft-sattler-domain-inventory-report-01
+                 draft-sattler-domain-inventory-report-02
 
 Abstract
 
@@ -27,7 +27,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on July 28, 2019.
+   This Internet-Draft will expire on September 23, 2019.
 
 Copyright Notice
 
@@ -44,9 +44,9 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-Sattler                  Expires July 28, 2019                  [Page 1]
+Sattler                Expires September 23, 2019               [Page 1]
 
-Internet-Draft          Domain Inventory Report             January 2019
+Internet-Draft          Domain Inventory Report               March 2019
 
 Table of Contents
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
@@ -68,24 +68,25 @@ Table of Contents
    Appendix A.  Change History . . . . . . . . . . . . . . . . . . .   5
      A.1.  Change from 00 to DOMAININV 00  . . . . . . . . . . . . .   5
      A.2.  Change from DOMAININV 00 to DOMAININV 01  . . . . . . . .   5
+     A.3.  Change from DOMAININV 01 to DOMAININV 02  . . . . . . . .   5
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   5
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
 
 1.  Introduction
 
-   Modern top-level domain registries provide a number of detailed
-   reports and documents that their registrars require on a daily,
-   weekly and monthly basis. These most commonly include transaction
-   reports, as well as lists containing currently unavailable domains
-   and current premium domain fees. These reports are critical for
-   registrars' businesses and play an important role in accounting and
-   operations processes as well as in sales and marketing activities.
-   In the current set-up registrars must download these reports from
-   each registry's intranet in a different manner according to each
-   registry's own document management set up.
+   Modern top-level domain registries provide many detailed reports and
+   documents that their registrars require on a daily, weekly and
+   monthly basis. These most commonly include transaction reports, as
+   well as lists containing currently unavailable domains and current
+   premium domain fees. These reports are critical for registrars'
+   businesses and play an important role in accounting and operations
+   processes as well as in sales and marketing activities. In the
+   current set-up, registrars must download these reports from each
+   registry's intranet differently according to each registry's document
+   management set up.
    
    A domain inventory comparison between the domains that are on an
-   accreditation / account and the domains that a registrar / reseller
+   accreditation/account and the domain names that a registrar/reseller
    has in its system is therefore useful.
    
    This document describes the content of a Domain Inventory Report
@@ -99,9 +100,9 @@ Table of Contents
    document are to be interpreted as described in [RFC2119] when
    specified in their uppercase forms.
    
-Sattler                  Expires July 28, 2019                  [Page 2]
+Sattler                Expires September 23, 2019               [Page 2]
 
-Internet-Draft          Domain Inventory Report             January 2019
+Internet-Draft          Domain Inventory Report               March 2019
    
 2.1.  Internationalized Domain Names
 
@@ -132,16 +133,16 @@ Internet-Draft          Domain Inventory Report             January 2019
    UPDATED           It MUST contain the date and time of the most
                      recent domain-object modification. If the domain
                      object has never been modified, then the date and
-                     time of domain-object creation has to be used.
+                     time of domain-object creation have to be used.
                      Formatting in both cases according to section 2.3
                      of this document.
 
-   ID                It MUST contain an unique ID according to section 4
+   ID                It MUST contain a unique ID according to section 4
                      of this document.
                      
 4.  Unique ID
 
-   A unique ID MUST either be according the IANA registrar IDs
+   A unique ID MUST either be according to the IANA registrar IDs
    (https://www.iana.org/assignments/registrar-ids/registrar-ids.xhtml)
    where applicable or another unique registrar or reseller ID MUST be
    used.
@@ -155,9 +156,9 @@ Internet-Draft          Domain Inventory Report             January 2019
    
    Filename: example_domain-inventory_2018-11-01.csv.gz
    
-Sattler                  Expires July 28, 2019                  [Page 3]
+Sattler                Expires September 23, 2019               [Page 3]
 
-Internet-Draft          Domain Inventory Report             January 2019
+Internet-Draft          Domain Inventory Report               March 2019
    
    TLD,DOMAIN,UPDATED,ID
    example,test1.example,2018-12-30T07:00:00Z,1
@@ -214,9 +215,9 @@ Internet-Draft          Domain Inventory Report             January 2019
 
    Add implementation details once available.
    
-Sattler                  Expires July 28, 2019                  [Page 4]
+Sattler                Expires September 23, 2019               [Page 4]
 
-Internet-Draft          Domain Inventory Report             January 2019
+Internet-Draft          Domain Inventory Report               March 2019
 
 9.  References
 
@@ -253,6 +254,10 @@ A.1.  Change from 00 to DOMAININV 00
 A.2.  Change from DOMAININV 00 to DOMAININV 01
 
    Editorial changes. Added column UPDATED. Clarified Unique ID.
+   
+A.3.  Change from DOMAININV 01 to DOMAININV 02
+
+   Editorial changes.
 
 Appendix B.  Acknowledgements
 
@@ -268,5 +273,5 @@ Author's Address
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-Sattler                  Expires July 28, 2019                  [Page 5]
+Sattler                Expires September 23, 2019               [Page 5]
 
