@@ -1,7 +1,7 @@
 Internet Engineering Task Force                       T. Sattler, Editor
 Internet-Draft                                              
 Intended status: Best Current Practice                         
-Expires: September 23, 2019                               March 24, 2019
+Expires: September 26, 2019                               March 27, 2019
 
                          Domain Inventory Report
                  draft-sattler-domain-inventory-report-02
@@ -27,7 +27,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on September 23, 2019.
+   This Internet-Draft will expire on September 26, 2019.
 
 Copyright Notice
 
@@ -44,7 +44,7 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-Sattler                Expires September 23, 2019               [Page 1]
+Sattler                Expires September 26, 2019               [Page 1]
 
 Internet-Draft          Domain Inventory Report               March 2019
 
@@ -100,7 +100,7 @@ Table of Contents
    document are to be interpreted as described in [RFC2119] when
    specified in their uppercase forms.
    
-Sattler                Expires September 23, 2019               [Page 2]
+Sattler                Expires September 26, 2019               [Page 2]
 
 Internet-Draft          Domain Inventory Report               March 2019
    
@@ -156,7 +156,7 @@ Internet-Draft          Domain Inventory Report               March 2019
    
    Filename: example_domain-inventory_2018-11-01.csv.gz
    
-Sattler                Expires September 23, 2019               [Page 3]
+Sattler                Expires September 26, 2019               [Page 3]
 
 Internet-Draft          Domain Inventory Report               March 2019
    
@@ -215,7 +215,7 @@ Internet-Draft          Domain Inventory Report               March 2019
 
    Add implementation details once available.
    
-Sattler                Expires September 23, 2019               [Page 4]
+Sattler                Expires September 26, 2019               [Page 4]
 
 Internet-Draft          Domain Inventory Report               March 2019
 
@@ -273,5 +273,5 @@ Author's Address
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-Sattler                Expires September 23, 2019               [Page 5]
+Sattler                Expires September 26, 2019               [Page 5]
 
