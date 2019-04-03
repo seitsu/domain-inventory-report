@@ -286,7 +286,7 @@ A.3.  Change from DOMAININV 01 to DOMAININV 02
    
 A.4.  Change from DOMAININV 02 to DOMAININV 03
 
-   Added united-domains Reselling as PoC for implementation. 
+   Added implementation reference.
 
 Appendix B.  Acknowledgements
 
