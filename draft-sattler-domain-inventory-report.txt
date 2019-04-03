@@ -227,8 +227,7 @@ Internet-Draft          Domain Inventory Report               April 2019
 
    Description: Domain Reseller Platform
 
-   Level of maturity: Research implementation in united-domains
-   Reselling environment.
+   Level of maturity: Deployed in production.
    
    Version compatibility: Version DOMAININV 03 is implemented.
 
