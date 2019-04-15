@@ -285,7 +285,7 @@ A.3.  Change from DOMAININV 01 to DOMAININV 02
    
 A.4.  Change from DOMAININV 02 to DOMAININV 03
 
-   Added implementation reference.
+   Added implementation reference. Added acknowledgement.
 
 Appendix B.  Acknowledgements
 
@@ -293,6 +293,7 @@ Appendix B.  Acknowledgements
    and suggestions (sorted alphabetically by company):
    
    o Neal McPherson, 1&1 IONOS
+   o Tim Ettel, united-domains
    
 Author's Address
 
